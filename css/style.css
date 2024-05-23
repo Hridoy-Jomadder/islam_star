@@ -1,0 +1,78 @@
+/* CSS for the top bar */
+#blue_bar {
+    background-color: #0056b3; /* Blue background color */
+    padding: 10px 0; /* Add padding to top and bottom */
+    overflow: hidden; /* Clear floats */
+}
+
+#blue_bar a {
+    color: white; /* Set text color to white for all links */
+    text-decoration: none; /* Remove underline from links */
+}
+
+#search_box {
+    padding: 5px; /* Add padding to the search box */
+    font-size: 16px; /* Set font size for the search box */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add border radius */
+}
+
+#search_box:focus {
+    outline: none; /* Remove outline on focus */
+}
+
+/* Style profile image */
+#blue_bar img {
+    width: 50px; /* Set width of the profile image */
+    float: right; /* Float the image to the right */
+    margin: 5px; /* Add margin around the image */
+    border-radius: 50%; /* Make the image circular */
+}
+
+/* Style notifications */
+.notification-badge {
+    background-color: red; /* Set background color to red */
+    color: white; /* Set text color to white */
+    position: absolute; /* Position absolutely */
+    top: 0; /* Align to the top */
+    right: -10px; /* Adjust right position */
+    border-radius: 50%; /* Make it circular */
+    padding: 4px; /* Add padding */
+    font-size: 14px; /* Set font size */
+}
+
+/* Style login link */
+#login_link {
+    font-size: 11px; /* Set font size */
+    float: right; /* Float the link to the right */
+    margin: 10px; /* Add margin */
+    color: white; /* Set text color to white */
+}
+
+/*Profile*/
+
+/*Profile Timeline*/
+#img{
+    width: 100%;
+    height: 100%;
+}
+
+/*  video */
+
+.video-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.video-card {
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.video-title {
+    font-weight: bold;
+}
+.video-description {
+    margin-top: 5px;
+}
