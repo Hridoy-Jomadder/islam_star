@@ -1,0 +1,15 @@
+update users set stars = 0
+update posts set stars = 0
+stars
+
+https://youtu.be/zgaGLI5iE6Y
+
+update users set stars = 0 where id >= 0
+update posts set stars = 0 where id >= 0
+user
+
+star stared
+$i_starred
+https://www.youtube.com/@authorenam
+
+title
